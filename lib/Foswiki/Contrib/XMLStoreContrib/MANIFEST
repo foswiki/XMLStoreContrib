@@ -1,0 +1,7 @@
+data/System/XMLStoreContrib.txt 0644
+lib/Foswiki/Contrib/XMLStoreContrib.pm 0644
+lib/Foswiki/Contrib/XMLStoreContrib/Config.spec 0664
+lib/Foswiki/Contrib/XMLStoreContrib/Element.pm 0644
+pub/System/XMLStoreContrib/COPYING.txt 0640
+test/unit/XMLStoreContrib/XMLStoreContribSuite.pm 0644
+test/unit/XMLStoreContrib/XMLStoreContribTests.pm 0644

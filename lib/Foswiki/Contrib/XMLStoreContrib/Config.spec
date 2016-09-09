@@ -1,0 +1,3 @@
+# ---+ Extensions
+# ---++ XMLStoreContrib
+1;

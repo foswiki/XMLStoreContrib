@@ -1,0 +1,50 @@
+%META:TOPICINFO{author="ProjectContributor" date="1426275622" format="1.1" version="1"}%
+%META:TOPICPARENT{name="Contribs"}%
+---+!! XML Data Store
+<!--
+One line description, required for extensions repository catalog.
+   * Set SHORTDESCRIPTION = XMLStoreContrib is a package for storing plugin data in XML files on Foswiki servers
+-->
+%SHORTDESCRIPTION%
+
+%TOC%
+
+---++ Usage
+
+This package is intended to be used by plugins to allow storage of data in XML files within the Foswiki framework.
+
+---++ Installation Instructions
+
+You do not need to install anything in the browser to use this extension. The following instructions are for the administrator who installs the extension on the server.
+
+Open configure, and open the "Extensions" section. Use "Find More Extensions" to get a list of available extensions. Select "Install".
+
+If you have any problems, or if the extension isn't available in =configure=, then you can still install manually from the command-line. See http://foswiki.org/Support/ManuallyInstallingExtensions for more help.
+
+---+++ Debian/Ubuntu users
+
+Install the prerequisites using apt-get 
+   * =apt-get install libxml-libxml-perl=
+
+---+++ Dependencies
+
+%$DEPENDENCIES%
+
+---++ Contrib Info
+
+|  Change&nbsp;History: | <!-- versions below in reverse order -->&nbsp; |
+|  31 Aug 2015 | 1.0.1 Remove use of Foswiki::Func::loadFile/saveFile |
+|  13 Aug 2015 | 1.0.0 Initial release. |
+
+
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Foswiki:Main.JohnKnutson"}%
+%META:FIELD{name="Version" title="Version" value="v1.0.1"}%
+%META:FIELD{name="Release" title="Release" value="1.0.1"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/XMLStoreContrib"}%
+%META:FIELD{name="Copyright" title="Copyright" value="&copy; 2015, Applied Research Laboratories, the University of Texas at Austin"}%
+%META:FIELD{name="License" title="License" value="[[%25ATTACHURLPATH%25/COPYING.txt][GPLv3]]"}%
+%META:FIELD{name="Home" title="Home" value="http://foswiki.org/Extensions/XMLStoreContrib"}%
+%META:FIELD{name="Support" title="Support" value="http://foswiki.org/Support/XMLStoreContrib"}%
+%META:FILEATTACHMENT{name="COPYING.txt" attachment="COPYING.txt" attr="" comment="GNU General Public License v3" date="1417819886" path="COPYING.txt" size="35147" user="ProjectContributor" version="1"}%
