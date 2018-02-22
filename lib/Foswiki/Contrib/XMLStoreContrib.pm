@@ -224,8 +224,8 @@ sub save {
     # Remove all nodes associated with the updated topic from the most
     # recent document, then add the possibly changed nodes back in.
     my $diskroot = $doc->documentElement();
-    foreach my $web (sort keys $self->{'updated'}) {
-        foreach my $topic (sort keys $self->{'updated'}->{$web}) {
+    foreach my $web (sort keys %{ $self->{'updated'} }) {
+        foreach my $topic (sort keys %{ $self->{'updated'}->{$web} }) {
             my @nodes = $doc->findnodes(
                 "/" . $self->{'rootname'} . "/" . $self->{'nodename'} .
                 "[\@web='$web' and \@topic='$topic']");
